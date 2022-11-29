@@ -145,6 +145,7 @@ a[href="#"]{
 .black-button{
     border: 1px white solid;
     background-color: black;
+    box-sizing: content-box;
     padding: 15px 25px;
 }
 .globe{
@@ -418,7 +419,7 @@ a[href="#"]{
 .section4{
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 40vh;
     align-items: center;
     margin: auto;
     height: 80vh;
@@ -443,7 +444,10 @@ a[href="#"]{
 /*SECTION 5*/
 .section5{
     margin: 20px;
-   
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .category-row1{
     display: flex;
@@ -453,7 +457,7 @@ a[href="#"]{
     display: flex;
     justify-content: space-between;
 }
-.categories{
+.top-categories{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
