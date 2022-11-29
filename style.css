@@ -301,6 +301,7 @@ a[href="#"]{
     padding: 30px;
     display: flex;
     flex-direction: column;
+
 }
 .carousel-link{
     font-size: 20px;
@@ -312,7 +313,7 @@ a[href="#"]{
     color: black;
 }
 .python_container{
-    border: 1px solid black;
+    border: 1px solid rgb(230,234,236);
     padding: 30px;
     width: 90vw;
     height: 70vh;
@@ -320,6 +321,7 @@ a[href="#"]{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 20px;
 }
 
 .photo_carousel{
@@ -348,7 +350,7 @@ a[href="#"]{
     z-index: 1;
     gap: 85vw;
     display: flex;
-    justify-content: center;
+    height: 340px;
 }
 .strike{
     text-decoration: line-through;
