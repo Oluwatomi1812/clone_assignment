@@ -343,7 +343,6 @@ a[href="#"]{
     width: 50px;
     transform: rotate(180deg);
     display: flex;
-
 }
 .arrows {
     position: absolute;
@@ -380,7 +379,7 @@ a[href="#"]{
     font-size: 20px;
   }  
 .photo{
-    width: 250px;
+    width: 270px;
     height: 150px;
     border: 1px solid rgb(225,229,232);
 }
@@ -391,7 +390,7 @@ a[href="#"]{
     position: absolute;
 }
 
-/*SECTION 4*/
+/*SECTION 3*/
 .section3{
     display: flex;
     background-color: rgb(247,249,250);
@@ -415,8 +414,34 @@ a[href="#"]{
     font-size: 20px;
    
 }
-/*SECTION4*/
+/*SECTION 4*/
 .section4{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    margin: auto;
+    height: 80vh;
+}
+.box{
+    padding: 30px;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.arrows2{
+    position: absolute;
+    z-index: 1;
+    gap: 85vw;
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+/*SECTION 5*/
+.section5{
     margin: 20px;
    
 }
@@ -433,8 +458,8 @@ a[href="#"]{
     flex-direction: column;
     justify-content: space-around;
 }
-/*Sectioon 6*/
-.section5{
+/*Section 6*/
+.section6{
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -470,7 +495,8 @@ a[href="#"]{
     font-weight: 400;
     font-size:20px;
 }
-.section6{
+/*SECTION 7*/
+.section7{
     height: 40vh;
     display: flex;
     align-items: center;
@@ -485,7 +511,7 @@ a[href="#"]{
     width: 90vw;
     justify-content:space-between;
 }
-.section7{
+.section8{
     display: flex;
     justify-content: center;
     font-family: 'Segoe UI'; 
@@ -509,8 +535,8 @@ a[href="#"]{
     height: 400px;
     margin:20% ;
 }
-/*SECTION8*/
-.section8{
+/*SECTION 9*/
+.section9{
     height: 80vh;
     display: flex;
     justify-content: center;
